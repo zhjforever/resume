@@ -1,0 +1,219 @@
+h1{
+	font-size: 50px;
+	line-height: 46px;
+	padding-top:60px; 
+	text-align:center;
+	color: white;
+}
+h2{
+	font-size: 36px;
+	line-height: 46px;
+	padding-top:60px; 
+	text-align:center;
+	color: white;
+}
+
+h3{
+	line-height: 0px;
+	padding-top:0; 
+	text-align:center;
+	color: white;
+}
+
+h4{
+	text-align:center;
+}
+
+span{
+	color:#333;
+	background: white;
+	font-weight:20px;
+	font-size: 22px;
+}
+
+nav{
+	background: #42474B;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+    line-height: 50px;
+    margin-right: 50px;
+}
+
+nav ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+
+nav ul li a:hover{
+	color: #52778F;
+}
+
+#banner{
+	background: #22B573;
+	height: 700px;
+	width:100%;
+}
+
+
+#banner .inner{
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+} 
+
+#banner .inner h1{
+	margin: 0;
+}
+
+#banner .inner .jiantou{
+   color: #FFFFFF;
+   font-size: 60px;
+   display: inline-block;
+}
+
+#info{
+	height: auto;
+	width:100%;
+	margin: 0;
+	background-color:#1889C5; 
+	padding:60px 0 100px;
+}
+
+#myPhoto{
+	height:250px; 
+	width:190px; 
+	display:inline-block; 
+	margin:0 0 0 580px;
+	padding-top: 50px;
+	
+}
+
+#info-text{
+    display:inline-block; 
+    color:white;
+    padding:50px；
+}
+
+#info-text .left{
+    margin-left: 200px;	
+    padding-bottom: 110px;
+}
+
+#info-text .left  li{
+	list-style-type:none;
+	line-height:25px;
+}
+
+#info-text .right{
+     margin-left: 600px;
+     margin-top: -300px;
+}
+
+
+#skill {
+	padding:50px 0 160px; 
+	height:auto; 
+	width:100%; 
+	background-color:#9C58B6; 
+	color:#FFFFFF; 
+	padding-bottom:160px; 
+	 }
+
+
+
+#skill .skills {
+	height:auto; 
+	width:auto;
+
+}
+
+#skill ul {
+	display:inline-block; 
+	height:auto; 
+	width:320px; 
+	margin:60px 0 0 56px; 
+	font-size:20px; 
+	font-family:"Microsoft YaHei light"; 
+	text-align: center; 
+	vertical-align: top;
+	list-style-type:none
+}
+
+#skill li {
+	height:auto; 
+	line-height:32px;}
+
+#skill li:first-child {
+	background-color:#FFFFFF; 
+	color:#333;
+}
+
+
+#work{
+	padding:30px 0 200px; 
+	width:100%; 
+	background-color:#26B1B6; 
+	color: #FFFFFF;
+    overflow: hidden;
+}
+
+
+
+#work .xiaomi{
+	padding-left: 30px;
+	width: 55%;
+	line-height: 26px;
+	float: left;
+}
+
+#work .xiaomi{
+	font-size: 14px;
+}
+
+#work .kefu{
+	width: 35%;
+	float: right;
+	line-height: 26px;
+    padding-right: 30px;
+}
+#work .kefu .kefu-neirong{
+	font-size: 14px;
+}
+
+#relation{
+	height: auto;
+	background: red;
+	margin: 0;
+	padding:30px 0 30px; 
+}
+
+#relation .foot{
+	margin:0 auto;
+	margin: 0;
+	font-size: 36px;
+	line-height: 46px;
+	text-align:center;
+	color: white;
+}
+
+#wechat{
+	height:250px; 
+	width:190px; 
+	display:inline-block; 
+	margin:0 0 0 580px;
+	padding-top: 30px;
+}
