@@ -1,5 +1,5 @@
 h1{
-	font-size: 50px;
+	font-size: 60px;
 	line-height: 46px;
 	padding-top:60px; 
 	text-align:center;
@@ -61,28 +61,32 @@ nav ul li a:hover{
 	color: #52778F;
 }
 
-#banner{
+#block1{
 	background: #22B573;
 	height: 700px;
 	width:100%;
+	font-family: "Microsoft YaHei" ; 
+	display: inline-block;
 }
 
 
-#banner .inner{
+#block1 .inner{
 	text-align: center;
 	margin: 0 auto;
-	position: relative;
-	top: 160px;
+	padding-top: 140px;
+	
 } 
 
-#banner .inner h1{
+#block1 .inner h1{
 	margin: 0;
 }
 
-#banner .inner .jiantou{
+#block1 .inner .jiantou{
    color: #FFFFFF;
    font-size: 60px;
    display: inline-block;
+   text-decoration: none;
+   margin-top: 180px;
 }
 
 #info{
@@ -90,27 +94,28 @@ nav ul li a:hover{
 	width:100%;
 	margin: 0;
 	background-color:#1889C5; 
-	padding:60px 0 100px;
+	overflow:hidden;
+	
 }
 
 #myPhoto{
 	height:250px; 
 	width:190px; 
-	display:inline-block; 
-	margin:0 0 0 580px;
-	padding-top: 50px;
-	
+	padding-top: 70px;
+	overflow: hidden;
+	padding-left: 40%;
 }
 
 #info-text{
-    display:inline-block; 
     color:white;
-    padding:50px；
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 #info-text .left{
-    margin-left: 200px;	
-    padding-bottom: 110px;
+    margin-left: 20%;
+    float: left;
+
 }
 
 #info-text .left  li{
@@ -119,8 +124,9 @@ nav ul li a:hover{
 }
 
 #info-text .right{
-     margin-left: 600px;
-     margin-top: -300px;
+     margin-left: 10%; 
+     float: left;
+     padding-bottom: 60px;
 }
 
 
@@ -214,6 +220,6 @@ nav ul li a:hover{
 	height:250px; 
 	width:190px; 
 	display:inline-block; 
-	margin:0 0 0 580px;
+	margin-left: 42%;
 	padding-top: 30px;
 }
